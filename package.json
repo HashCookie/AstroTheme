@@ -1,8 +1,8 @@
 {
-  "name": "astro-theme-typography",
+  "name": "hashcookieblog",
   "type": "module",
   "version": "0.1.0",
-  "repository": "https://github.com/moeyua/astro-theme-typography",
+  "repository": "https://github.com/HashCookie/AstroTheme",
   "scripts": {
     "dev": "astro check && astro dev",
     "preview": "astro preview",

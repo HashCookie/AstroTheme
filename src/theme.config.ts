@@ -1,21 +1,21 @@
-export const THEME_CONFIG: App.Locals['config'] = {
+export const THEME_CONFIG: App.Locals["config"] = {
   /** blog title */
-  title: "活版印字",
+  title: "HashCookie",
   /** your name */
-  author: "Typography",
+  author: "HashCookie",
   /** website description */
   desc: "Rediscory the beauty of typography",
   /** your deployed domain */
-  website: "https://astro-theme-typography.vercel.app/",
+  website: "https://HashCookie.vercel.app/",
   /** your locale */
-  locale: "en-us",
+  locale: "zh-cn",
   /** theme style */
   themeStyle: "light",
   /** your socials */
   socials: [
     {
       name: "github",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://github.com/hashcookie",
     },
     {
       name: "rss",
@@ -23,16 +23,16 @@ export const THEME_CONFIG: App.Locals['config'] = {
     },
     {
       name: "twitter",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://x.com/Hashcookie404",
     },
-    {
-      name: "mastodon",
-      href: "https://github.com/moeyua/astro-theme-typography",
-    }
+    // {
+    //   name: "mastodon",
+    //   href: "",
+    // }
   ],
   /** your header info */
   header: {
-    twitter: "@moeyua13",
+    twitter: "@hashcookie404",
   },
   /** your navigation links */
   navs: [
@@ -46,7 +46,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
     },
     {
       name: "Categories",
-      href: "/categories"
+      href: "/categories",
     },
     {
       name: "About",
@@ -54,14 +54,12 @@ export const THEME_CONFIG: App.Locals['config'] = {
     },
   ],
   /** your category name mapping, which the `path` will be shown in the url */
-  category_map: [
-    { name: "胡适", path: "hu-shi" },
-  ],
+  category_map: [{ name: "胡适", path: "hu-shi" }],
   /** your comment provider */
   comments: {
     disqus: {
       // please change this to your disqus shortname
-      shortname: "typography-astro",
+      shortname: "HashCookie",
     },
     // giscus: {
     //   repo: 'moeyua/astro-theme-typography',
@@ -80,6 +78,5 @@ export const THEME_CONFIG: App.Locals['config'] = {
     // twikoo: {
     //   envId: "https://twikoo-tau-flame.vercel.app",
     // }
-  }
-}
-
+  },
+};
