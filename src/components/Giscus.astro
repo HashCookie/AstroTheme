@@ -1,11 +1,11 @@
 ---
-const { comments } = Astro.locals.config
+const { comments } = Astro.locals.config;
 
 if (!comments || !comments.giscus) {
-  throw new Error('Giscus comments are not configured')
+  throw new Error("Giscus comments are not configured");
 }
 
-const giscus = comments.giscus
+const giscus = comments.giscus;
 ---
 
 <giscus-widget
@@ -27,5 +27,5 @@ const giscus = comments.giscus
 </giscus-widget>
 
 <script>
-  import 'giscus'
+  import "giscus";
 </script>

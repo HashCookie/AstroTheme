@@ -1,15 +1,15 @@
 ---
-import { formatDate, getPathFromCategory } from '~/utils'
-import { THEME_CONFIG } from '~/theme.config'
+import { formatDate, getPathFromCategory } from "~/utils";
+import { THEME_CONFIG } from "~/theme.config";
 interface Props {
-  post: Post
+  post: Post;
 }
 
-const { post } = Astro.props
-const { translate: t } = Astro.locals
+const { post } = Astro.props;
+const { translate: t } = Astro.locals;
 
 function getCategoryUrl(category: string) {
-  return `/categories/${getPathFromCategory(category, THEME_CONFIG.category_map)}`
+  return `/categories/${getPathFromCategory(category, THEME_CONFIG.category_map)}`;
 }
 ---
 
@@ -19,7 +19,7 @@ function getCategoryUrl(category: string) {
       <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
     </h1>
     <div class="mt-2 text-3.5">
-      <span>{t('posted_at')}</span>
+      <span>{t("posted_at")}</span>
       <time>{formatDate(post.data.pubDate)}</time>
       {
         post.data.categories &&

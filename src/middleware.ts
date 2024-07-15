@@ -1,4 +1,4 @@
-import { defineMiddleware } from 'astro:middleware';
+import { defineMiddleware } from "astro:middleware";
 import { THEME_CONFIG } from "~/theme.config.ts";
 import { LANGUAGES } from "~/i18n.ts";
 
@@ -17,7 +17,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
   context.locals.translate = (key, param) => {
     if (!validateKey(key)) return key;
     else if (!param) return localeTranslate[key];
-    else return localeTranslate[key].replace('%d', param.toString());
-  }
+    else return localeTranslate[key].replace("%d", param.toString());
+  };
   return next();
 });

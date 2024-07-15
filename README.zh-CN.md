@@ -55,8 +55,8 @@
 ---
 title: title
 pubDate: 2021-08-01
-categories: ['article']
-description: 'description'
+categories: ["article"]
+description: "description"
 ---
 ```
 
@@ -113,19 +113,19 @@ navs: [
 「活版印字」主题支持深色模式。您可以在配置文件中更改它：
 
 ```ts
-themeStyle: 'dart' // 'light' | 'dark'
+themeStyle: "dart"; // 'light' | 'dark'
 ```
-
 
 ### 国际化 (i18n)
 
 「活版印字」主题为多语言站点提供内置支持。默认情况下，语言为'en-us'，您可以在配置文件中更改它：
 
 ```ts
-locale: "zh-cn"
+locale: "zh-cn";
 ```
 
 目前，「活版印字」主题支持以下语言：
+
 - `en-us`
 - `zh-cn`
 - `zh-tw`
@@ -194,7 +194,7 @@ comments: {
 
 [![Pagespeed Score](https://github.com/moeyua/astro-theme-typography/assets/45156493/2272f576-d6ff-49ef-a294-5c2acf365907)](https://pagespeed.web.dev/analysis/https-astro-theme-typography-vercel-app/j34nq9tx0s?form_factor=desktop)
 
-## TODO 
+## TODO
 
 - [ ] WebSub
 - [x] comment

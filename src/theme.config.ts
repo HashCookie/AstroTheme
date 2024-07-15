@@ -2,7 +2,7 @@ export const THEME_CONFIG: App.Locals["config"] = {
   /** blog title */
   title: "HashCookie",
   /** your name */
-  author: "HashCookie",
+  author: "",
   /** website description */
   desc: "Rediscory the beauty of typography",
   /** your deployed domain */
