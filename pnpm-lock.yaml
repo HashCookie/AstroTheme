@@ -61,8 +61,8 @@ importers:
         specifier: ^0.59.0
         version: 0.59.0
       '@unocss/transformer-directives':
-        specifier: ^0.60.4
-        version: 0.60.4
+        specifier: ^0.61.6
+        version: 0.61.6
       bumpp:
         specifier: ^9.4.1
         version: 9.4.1
@@ -1117,6 +1117,9 @@ packages:
   '@unocss/core@0.60.4':
     resolution: {integrity: sha512-6tz8KTzC30oB0YikwRQoIpJ6Y6Dg+ZiK3NfCIsH+UX11bh2J2M53as2EL/5VQCqtiUn3YP0ZEzR2d1AWX78RCA==}
 
+  '@unocss/core@0.61.6':
+    resolution: {integrity: sha512-z1O1fnMRvmX1zkvbKVZ7jKUOHZHw/tUBYDNpll1rx9wjmps/MHfv7K5C5FiOTaW9S9H5r2LSjW/MaMs0dxgoCw==}
+
   '@unocss/extractor-arbitrary-variants@0.60.4':
     resolution: {integrity: sha512-USuFGs5CLft9q7IGNdAEp1oliuUns+W7OO0Tx5qtx/oBh6pU/L93lcNNsuuGNrMU8BCmF3atx1/PEmGymgJ7VA==}
 
@@ -1163,6 +1166,10 @@ packages:
     resolution: {integrity: sha512-7qUN33NM4T/IwWavm9VIOCZ2+4hLBc0YUGxcMNTDZSFQRQLkWe3N5dOlgwKXtMyMKatZfbIRUKVDUgvEefoCTA==}
     engines: {node: '>=14'}
 
+  '@unocss/rule-utils@0.61.6':
+    resolution: {integrity: sha512-OkAYqCWfbrBDBVfbulYx/6fWeEAVrw37/8VqsSlHD9UDc0Khz/M/4R+9oBhnNfdmqs3VccA2k7PdS5l5dghwzw==}
+    engines: {node: '>=14'}
+
   '@unocss/scope@0.60.4':
     resolution: {integrity: sha512-AOu/qvi4agy0XfGF3QEBbuxVHkVZHpmU0NMBYuxa0B869YZENT87sTM6DVwtvr75CZvACWxv/hcL3lR68uKBjw==}
 
@@ -1177,6 +1184,9 @@ packages:
 
   '@unocss/transformer-directives@0.60.4':
     resolution: {integrity: sha512-u3fQI8RszMhUevhJICtQ/bNpAfbh8MEXQf7YNnzUvLvbXGkkoieyU5mj0ray6fbToqxfxVceQtXYcFYIuf4aNg==}
+
+  '@unocss/transformer-directives@0.61.6':
+    resolution: {integrity: sha512-k+NzDoO0+uwL9HjOWzIFLWwsxzw7K1aIeq0ZbzbHRSsZmlUWVNEAZ+bczX/HMpjUglM/FrTWux600B/jMBshJg==}
 
   '@unocss/transformer-variant-group@0.60.4':
     resolution: {integrity: sha512-R4d16G7s3fDXj9prUNFnJi8cZvH8/XZsqiKDzCBjXNKrbf9zp7YnWD2VaMFjUISgW5kSQjQNSWK84soVNWq3UQ==}
@@ -4123,6 +4133,8 @@ snapshots:
 
   '@unocss/core@0.60.4': {}
 
+  '@unocss/core@0.61.6': {}
+
   '@unocss/extractor-arbitrary-variants@0.60.4':
     dependencies:
       '@unocss/core': 0.60.4
@@ -4198,6 +4210,11 @@ snapshots:
       '@unocss/core': 0.60.4
       magic-string: 0.30.10
 
+  '@unocss/rule-utils@0.61.6':
+    dependencies:
+      '@unocss/core': 0.61.6
+      magic-string: 0.30.10
+
   '@unocss/scope@0.60.4': {}
 
   '@unocss/transformer-attributify-jsx-babel@0.60.4':
@@ -4221,6 +4238,12 @@ snapshots:
     dependencies:
       '@unocss/core': 0.60.4
       '@unocss/rule-utils': 0.60.4
+      css-tree: 2.3.1
+
+  '@unocss/transformer-directives@0.61.6':
+    dependencies:
+      '@unocss/core': 0.61.6
+      '@unocss/rule-utils': 0.61.6
       css-tree: 2.3.1
 
   '@unocss/transformer-variant-group@0.60.4':
